@@ -1,6 +1,21 @@
 # Changelog
 
-## 1.8.0 - 2023-10-09
+* [Format of document](https://keepachangelog.com/en/1.0.0/)
+
+## [Unreleased]
+
+### Added
+
+### Changed
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
+
+## [1.8.0 - 2023-10-09]
 
 I admit this is not the most exciting release from a feature standpoint. We are in that holding pattern between the end of 1.x and the start of 2.0. We recently made our new reactive experiments public and continue to build those out in public with [@solidjs/signals](https://github.com/solidjs/signals).
 

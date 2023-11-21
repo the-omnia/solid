@@ -2,15 +2,60 @@
   <img src="https://assets.solidjs.com/banner?project=Library&type=core" alt="SolidJS" />
 </p>
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/solidjs/solid/main-ci.yml?branch=main&logo=github&style=for-the-badge)](https://github.com/solidjs/solid/actions/workflows/main-ci.yml)
-[![Coverage Status](https://img.shields.io/coveralls/github/solidjs/solid.svg?style=for-the-badge)](https://coveralls.io/github/solidjs/solid?branch=main)
+> **Info**
+>
+> This is fork for The Omnia's re-implementation and echantments of solid-js
+> runtime. Read this document carefully, before doing anything with it.
 
-[![NPM Version](https://img.shields.io/npm/v/solid-js.svg?style=for-the-badge)](https://www.npmjs.com/package/solid-js)
-[![](https://img.shields.io/npm/dm/solid-js.svg?style=for-the-badge)](https://www.npmjs.com/package/solid-js)
-[![Discord](https://img.shields.io/discord/722131463138705510?style=for-the-badge)](https://discord.com/invite/solidjs)
-[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/solidjs?style=for-the-badge)](https://www.reddit.com/r/solidjs/)
+## Why this exists?
 
-**[Website](https://www.solidjs.com/) • [API Docs](https://www.solidjs.com/docs/latest/api) • [Features Tutorial](https://www.solidjs.com/tutorial/introduction_basics) • [Playground](https://playground.solidjs.com/?version=1.3.13#NobwRAdghgtgpmAXGGUCWEwBowBcCeADgsrgM4Ae2YZA9gK4BOAxiWGjIbY7gAQi9GcCABM4jXgF9eAM0a0YvADo1aAGzQiAtACsyAegDucAEYqA3EogcuPfr2ZCouOAGU0Ac2hqps+YpU6DW09CysrGXoIZlw0WgheAGEGCBdGAAoASn4rXgd4sj5gZhTcLF4yOFxkqNwAXV4AXgcnF3cvKDV0gAZMywT8iELeDEc4eFSm3iymgD4KqprU9JLamYBqXgBGPvCBoVwmBPTcvN4AHhN6XFx43gJiRpUrm-iVXnjEjWYAa0aQUZCCa4SSzU5nfirZaZSTgi76F63CBgga7CCwiBWISicTpGaNebnJZpXj6WblES0Zj0YEAOg8VQAompxsJcAAhfAASREJzAUEIhBUmTRYEkdSAA) • [Discord](https://discord.com/invite/solidjs)**
+This fork exists due the missing or lack of features that we as team expecting from original
+Solid JS. Solid already *solid* (funny enough), but for us it is important. So what we want
+here?
+
+1. Built-in routing.
+2. Built-in store managment.
+3. CSS-in-JS support from the beggining.
+4. Legacy browsers support.
+5. Backwards capabilities with React.
+
+We want to bring this features in original solid-js, but don't want to mess with idea of
+core developers, so for that reason we bringing them in our own way.
+
+### Do You want to bring them in origin?
+
+**Yes**. We would like to see original SolidJS team to have such features built-in, but until
+we provide them as foundation of this fork, we don't provide them back.
+
+### Does this fork die when all features will be implemented?
+
+**No**. This question is like thinking about linux distros. Example:
+Monjaro does it's work to be easier way of using Arch Linux, but work is still going. Web is
+broken by design, there is too much APIs that are not supported from version-to-version or
+cross-browser support is missing, so supporting of such items and fulfilling them is important
+to us.
+
+### Whould You will paywall this fork?
+
+**No**. Framework as it's origin, is provided under same conditions as origin (*with minor new
+restrictions*). We belive in open-source, but have some bad thoughts about it.
+
+### May I use this?
+
+**Sort of**. Read releases of this fork, but prefer using original work.
+
+### Donations?
+
+**Meh**. As team, we don't accept (for now) any donations, we even don't do commercial work.
+We building tools for teams like We are, but don't have time to build them by themself, so
+addoption is only way of supporting this work. Better to donate to original developers.
+
+## Roadmap
+
+We don't provide road map for now. For now we are working on adopting of this code and only
+then we provide road map and stable release cycle for usage.
+
+## Original readme
 
 Solid is a declarative JavaScript library for creating user interfaces. Instead of using a Virtual DOM, it compiles its templates to real DOM nodes and updates them with fine-grained reactions. Declare your state and use it throughout your app, and when a piece of state changes, only the code that depends on it will rerun.
 
